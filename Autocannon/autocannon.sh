@@ -1,5 +1,5 @@
 #!/bin/bash
-# Authored by Insolent.Binary
+# Authored by Insolent.M1nx
 red=$'\e[1;31m'
 grn=$'\e[1;32m'
 ylw=$'\e[1;33m'
