@@ -47,7 +47,7 @@ echo " $totalcount $url "
 	   
 	   curl -sS -X POST "https://urlscan.io/api/v1/scan/" \
       		-H "Content-Type: application/json" \
-      		-H "API-Key: 4cfee606-4f28-4be5-a947-6f92b633912a" \
+      		-H "API-Key: ENTER YOUR API KEY HERE" \
        		-d "{\"url\": \"$url\", \"public\": \"on\"}" >> covid19outsubs.json
                         
                         echo $grn "$url has been SUBMITTED!" $white
